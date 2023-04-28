@@ -1,0 +1,21 @@
+Algoritmo PromedioDeNotas
+	// Declaración de variables
+	Definir nota1, nota2, nota3, nota4, promedio como Real
+	
+	// Lectura de las notas
+	Escribir "Ingrese la nota 1:"
+	Leer nota1
+	Escribir "Ingrese la nota 2:"
+	Leer nota2
+	Escribir "Ingrese la nota 3:"
+	Leer nota3
+	Escribir "Ingrese la nota 4:"
+	Leer nota4
+	
+	// Cálculo del promedio
+	promedio <- (nota1 + nota2 + nota3 + nota4) / 4
+	
+	// Mostrar resultado en pantalla
+	Escribir "El promedio de las notas es:", promedio
+	
+FinAlgoritmo
